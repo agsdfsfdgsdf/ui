@@ -1,0 +1,23 @@
+{
+    "webSocketTaskURL": "ws://124.70.218.110:9001/ws",
+    "map": {
+        "amapKey": "864c8eb3238207b7ed7049bed9420fec",
+        "mapStyle": "amap://styles/macaron",
+        "initialView": {
+            "center": [
+                108.935, 34.5017
+            ],
+            "zoom": 18
+        }
+    },
+    "api": {
+        "largeScreenUrl": "http://111.33.160.146:8081",
+        "platformBaseUrl": "http://124.70.218.110:9001",
+        "vehicleTaskBaseUrl": "http://124.70.218.110:9001/vehicle",
+        "dispatchBaseUrl": "http://124.70.218.110:9002/dispatch",
+        "otaBaseUrl": "http://124.70.218.110:9002/ota",
+        "closureBaseUrl": "http://124.70.218.110:9002/data-closure",
+        "fcDownloadZipUrl": "https://func-edjebb-oss-zip-num-ajzwnqgbtf.cn-hangzhou.fcapp.run",
+        "operationBaseUrl": "http://124.70.218.110:9001"
+    }
+}

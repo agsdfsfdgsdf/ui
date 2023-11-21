@@ -1,0 +1,64 @@
+@import '~antd/es/style/themes/default.less';
+
+.tabs {
+  position: fixed;
+  top: @layout-trigger-height;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 38px;
+  // margin-left: -24px;
+  // width: calc(100% - 256px);
+  // width: 100%;
+  margin-top: 5px;
+  background: #fff;
+  border-color: @border-color-base;
+  border-width: 1px;
+  border-bottom: solid;
+
+  .tabList {
+    display: flex;
+    flex: 1;
+    margin-top: 2px;
+    overflow: hidden;
+
+    .linkTabs {
+      display: flex;
+      flex: 1;
+      // transform: translate(-50px, 0);
+      transition: all 0.5s;
+    }
+  }
+
+  .tabLeftMenu {
+    z-index: 12;
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    margin-top: 5px;
+    padding: 0 20px 0 5px;
+
+    .tabMore {
+      color: @primary-color;
+      font-weight: bold;
+    }
+  }
+
+  .boxShadow {
+    box-shadow: -7px 0 7px -7px #5e5e5e; //@tab-left-menu;
+  }
+
+  &:first-child {
+    &::before {
+      display: none;
+    }
+  }
+
+  :global {
+    .ant-dropdown-link {
+      line-height: 30px;
+    }
+  }
+}

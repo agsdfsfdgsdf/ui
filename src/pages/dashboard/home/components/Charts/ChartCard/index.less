@@ -1,0 +1,47 @@
+@import '~antd/es/style/themes/default.less';
+
+.chartCard {
+  display: flex;
+  flex-direction: column;
+
+  .chartCardTop {
+    display: flex;
+    flex: 1 1 20px;
+    justify-content: center;
+
+    img {
+      width: 18px;
+      height: 18px;
+      margin-bottom: 5px;
+    }
+  }
+
+  .chartCardValue {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    color: black;
+    font-size: xx-large;
+  }
+
+  .chartCardTitle {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    color: @text-color-secondary;
+    font-size: @font-size-base;
+  }
+
+  .chartCardFooter {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    color: black;
+    font-size: smaller;
+
+    .content {
+      margin-top: 6px;
+      margin-bottom: 4px;
+    }
+  }
+}

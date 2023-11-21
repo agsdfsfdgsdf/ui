@@ -1,0 +1,157 @@
+.allotsVehicleListContainer,
+.allotsMapContainer {
+  width: 100%;
+  height: 85vh;
+  user-select: none;
+
+  :global(.ant-pro-table .ant-pro-table-search) {
+    margin: 0;
+    padding: 0;
+  }
+
+  :global(.ant-form-vertical .ant-form-item-label) {
+    display: none;
+  }
+
+  :global(.ant-card-head-title) {
+    color: #2d8cf0;
+    font-weight: 40;
+    font-size: medium;
+    font-family: 'Microsoft YaHei UI';
+    font-style: normal;
+  }
+
+  :global(.ant-table-thead) {
+    display: none;
+  }
+
+  :global(.ant-pro-table-search) {
+    margin: 0;
+    padding: 0;
+  }
+
+  .carImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 10px;
+
+    .carIconBg {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 1.8rem;
+      height: 1.8rem;
+      background-color: #2d8cf0;
+      border-radius: 0.9rem;
+
+      .carIcon {
+        width: 1.5rem;
+        height: 1.5rem;
+        padding: 0.3rem;
+      }
+    }
+
+    .carIconNoBg {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 1.8rem;
+      height: 1.8rem;
+      background-color: #c5c8ce;
+      border-radius: 0.9rem;
+      .carIcon {
+        width: 1.5rem;
+        height: 1.5rem;
+        padding: 0.3rem;
+      }
+    }
+  }
+
+  .timeSpan {
+    overflow: hidden;
+    color: #9ea7b4;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    user-select: none;
+  }
+
+  .labelStatusFree {
+    display: inline-block;
+    padding: 2px 5px;
+    overflow: hidden;
+    color: #9ea7b4;
+    font-size: 12px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    border: #9ea7b4 solid 1px;
+    border-radius: 4px;
+    user-select: none;
+  }
+
+  .labelStatusParking {
+    display: inline-block;
+    padding: 2px 5px;
+    overflow: hidden;
+    color: #40bbfe;
+    font-size: 12px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    border: #40bbfe solid 1px;
+    border-radius: 4px;
+    user-select: none;
+  }
+
+  .labelStatusRunning {
+    display: inline-block;
+    padding: 0.125rem 0.3rem;
+    overflow: hidden;
+    color: #23c171;
+    font-size: 12px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    border: #23c171 solid 1px;
+    border-radius: 4px;
+    user-select: none;
+  }
+
+  .labelStatusOffline {
+    display: inline-block;
+    padding: 2px 5px;
+    overflow: hidden;
+    color: transparent;
+    font-size: 12px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    border: transparent solid 1px;
+    border-radius: 4px;
+    user-select: none;
+  }
+
+  .labelStatusWaiting {
+    display: inline-block;
+    padding: 2px 5px;
+    overflow: hidden;
+    color: #bea722;
+    font-size: 12px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    border: #bea722 solid 1px;
+    border-radius: 4px;
+    user-select: none;
+  }
+
+  .allotsSearch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 20px;
+  }
+}
+
+.centerRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

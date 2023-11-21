@@ -1,0 +1,10 @@
+/lambda/
+/scripts
+/config
+.history
+public
+dist
+web_platform
+.umi
+.umi-production
+mock

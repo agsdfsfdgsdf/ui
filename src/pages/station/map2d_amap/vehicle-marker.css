@@ -1,0 +1,278 @@
+.amap-marker-label {
+  position: absolute;
+  z-index: 2;
+  color: black;
+  font-size: 0.875rem;
+  font-family: 'YouSheBiaoTiHei';
+  line-height: 0.3409vw;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+  cursor: default;
+}
+
+.vehicle-marker-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 50px;
+  padding: 2px 8px;
+  color: black;
+  font-size: 0.875rem;
+  font-family: 'YouSheBiaoTiHei';
+  line-height: 22px;
+  background-color: #ddd;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 4px;
+}
+
+.marker-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 8px;
+  color: black;
+  font-size: 0.875rem;
+  font-family: 'YouSheBiaoTiHei';
+  line-height: 22px;
+  background-color: #ddd;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 4px;
+}
+
+.vehicle-status-card {
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 326px;
+  height: 272px;
+}
+
+.vehicle-status-card .vehicle-status-card-info {
+  display: flex;
+  flex-direction: column;
+  width: 326px;
+  font-size: 14px;
+  background-color: #eee;
+  border-radius: 6px;
+}
+
+.vehicle-status-card .vehicle-status-card-info .vehicle-status-card-head {
+  width: 100%;
+  height: 38px;
+  border-bottom: #ddd solid 1px;
+}
+
+.vehicle-status-card
+  .vehicle-status-card-info
+  .vehicle-status-card-head
+  .vehicle-status-card-head-left {
+  display: flex;
+  align-items: center;
+  float: left;
+  width: 50%;
+  height: 100%;
+  padding-left: 20px;
+  color: #2c85e4;
+  font-weight: bold;
+  font-size: 0.975rem;
+  border-top-left-radius: 6px;
+}
+
+.vehicle-status-card
+  .vehicle-status-card-info
+  .vehicle-status-card-head
+  .vehicle-status-card-head-right {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  float: right;
+  width: 50%;
+  height: 100%;
+  padding-right: 10px;
+  border-top-right-radius: 6px;
+}
+
+.vehicle-status-card
+  .vehicle-status-card-info
+  .vehicle-status-card-head
+  .vehicle-status-card-head-right
+  .img-dch {
+  width: 38px;
+  height: 38px;
+  margin-right: 2px;
+}
+
+.vehicle-status-card
+  .vehicle-status-card-info
+  .vehicle-status-card-head
+  .vehicle-status-card-head-right
+  span {
+  height: 30px;
+  line-height: 30px;
+}
+
+.vehicle-status-card
+  .vehicle-status-card-info
+  .vehicle-status-card-head
+  .vehicle-status-card-head-right
+  .img-close {
+  width: 24px;
+  height: 24px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.vehicle-status-card .vehicle-status-card-info .vehicle-status-card-body {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 0.875rem;
+}
+
+.vehicle-status-card
+  .vehicle-status-card-info
+  .vehicle-status-card-body
+  .vehicle-status-card-body-row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 28px;
+}
+
+.vehicle-status-card
+  .vehicle-status-card-info
+  .vehicle-status-card-body
+  .vehicle-status-card-body-row
+  .vehicle-status-card-body-row-left {
+  display: flex;
+  flex: 1 1 30%;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+  padding-left: 20px;
+}
+
+.vehicle-status-card
+  .vehicle-status-card-info
+  .vehicle-status-card-body
+  .vehicle-status-card-body-row
+  .vehicle-status-card-body-row-right {
+  display: flex;
+  flex: 1 1 70%;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+  padding-left: 20px;
+}
+
+.vehicle-status-card
+  .vehicle-status-card-info
+  .vehicle-status-card-body
+  .vehicle-status-card-body-row
+  .vehicle-status-card-body-row-right
+  .status-running {
+  color: #23c171;
+}
+
+.vehicle-status-card
+  .vehicle-status-card-info
+  .vehicle-status-card-body
+  .vehicle-status-card-body-row
+  .vehicle-status-card-body-row-right
+  .status-free {
+  color: #9ea7b4;
+}
+
+.vehicle-status-card
+  .vehicle-status-card-info
+  .vehicle-status-card-body
+  .vehicle-status-card-body-row
+  .vehicle-status-card-body-row-right
+  .status-parking {
+  color: #40bbfe;
+}
+
+.vehicle-status-card
+  .vehicle-status-card-info
+  .vehicle-status-card-body
+  .vehicle-status-card-body-row
+  .vehicle-status-card-body-row-right
+  .status-waiting {
+  color: #bea722;
+}
+
+.vehicle-status-card .vehicle-status-card-info .vehicle-status-card-footer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 36px;
+  border-top: #ddd solid 1px;
+}
+
+.vehicle-status-card .vehicle-status-card-info .vehicle-status-card-footer .footer-button {
+  height: 24px;
+  margin-left: 20px;
+  color: #fff;
+  font-size: 14px;
+  background-color: #2d8cf0;
+  border: #2977ca solid 1px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.vehicle-status-card .vehicle-status-card-info .vehicle-status-card-footer .footer-button:hover {
+  height: 24px;
+  color: #fff;
+  font-size: 14px;
+  background-color: #2374ca;
+  border: #2374ca solid 1px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.vehicle-status-card .vehicle-status-card-info .vehicle-status-card-footer .footer-button:disabled {
+  height: 24px;
+  color: #fff;
+  font-size: 14px;
+  background-color: #2d8cf0;
+  border: #2977ca solid 1px;
+  border-radius: 5px;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.vehicle-status-card .footer-xsj {
+  width: 20px;
+  height: 10px;
+}
+
+.vehicle-marker-label-panel {
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 50px;
+}
+
+.vehicle-marker-label-panel span {
+  padding: 2px 8px;
+  color: black;
+  font-size: 0.875rem;
+  font-family: 'YouSheBiaoTiHei';
+  line-height: 22px;
+  background-color: #ddd;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 4px;
+}
+
+.vehicle-marker-label-panel img {
+  width: 20px;
+  height: 10px;
+}
