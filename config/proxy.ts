@@ -44,7 +44,8 @@ export default {
       pathRewrite: { '^/': '/' },
     },
     '/operationApi': {
-      target: 'http://124.70.218.110:9001',
+      //target: 'http://124.70.218.110:9001',
+      target: 'http://localhost:4095',
       changeOrigin: true,
       pathRewrite: { '^/operationApi': '/' }
     }

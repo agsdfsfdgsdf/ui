@@ -63,6 +63,7 @@ const checkRegion = 10 * 60 * 1000;
 // @ts-ignore
 request.interceptors.request.use((url: string, options: any) => {
   const headers = options.headers ? options.headers : [];
+  debugger
   if (url.indexOf('cn-hangzhou.fcapp.run') !== -1) {
     return {
       url,
@@ -90,7 +91,7 @@ request.interceptors.request.use((url: string, options: any) => {
       }
     } else {
       clearSessionToken();
-      history.push(LoginPageUrl);
+      //history.push(LoginPageUrl);
       console.log('Gunson', 'request', '没有发现Token令牌');
       return undefined;
     }

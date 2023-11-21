@@ -34,17 +34,17 @@ export async function getInitialState(): Promise<{
   await DataConfig.init();
 
   const fetchUserInfo: any = async () => {
-    try {
-      const resp = await getUserInfo();
+    //try {
+      //const resp = await getUserInfo();
 
-      if (resp === undefined || resp.code !== 200) {
-        history.push(loginPath);
-      } else {
-        return { ...resp.user, permissions: resp.permissions } as API.CurrentUser;
-      }
-    } catch (error) {
-      history.push(loginPath);
-    }
+      //if (resp === undefined || resp.code !== 200) {
+        //history.push(loginPath);
+      //} else {
+        //return { ...resp.user, permissions: resp.permissions } as API.CurrentUser;
+      //}
+    //} catch (error) {
+      //history.push(loginPath);
+    //}
     return {};
   };
   // 如果是登录页面，不执行
